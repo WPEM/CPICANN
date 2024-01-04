@@ -30,6 +30,9 @@ def main():
 
     infDir = args.data_path
 
+    if not os.path.exists('figs'):
+        os.makedirs('figs')
+
     # get annotation data for display purposeys = np.zeros(4500)
     annoMap, elemMap = get_anno_map()
 
@@ -54,7 +57,8 @@ def main():
     model.eval()
 
     # write the inference results to a csv file
-    dataFile = open('infResults_{}.csv'.format(infDir.split('/')[-1]), 'w')
+    resFileName = 'infResults_{}.csv'.format(infDir.split('/')[-1])
+    dataFile = open(resFileName, 'w')
     dataWriter = csv.writer(dataFile)
     dataWriter.writerow(['path', 'fileName', 'predRank', 'pred', 'codId', 'formula', 'spaceGroupNo', 'spaceGroup'])
 
@@ -112,6 +116,8 @@ def main():
         plot.run(l, data, predList)
 
     dataFile.close()
+
+    return resFileName
 
 
 def inference(model, v, args):
@@ -227,5 +233,7 @@ def filter_by_index(logits, index):
 
 
 if __name__ == '__main__':
-    main()
+    resFileName = main()
+    print('\ninference result saved in {}'.format(resFileName))
+    print('inference figures saved at figs/')
     print('THE END')
