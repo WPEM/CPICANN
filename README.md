@@ -69,6 +69,7 @@ This repo contains model and inference code for XRD phase identification by Deep
 ## Usage
 ### Preparation
 Install pytorch and pymatgen(for inference results visualization).  
+Download model parameter and CIF files at https://figshare.com/articles/dataset/models_and_strucs_zip/24943062. Place *pretrained/* and *strucs/* under root directory.
 The code has been tested on CentOS 7.4 with Python 3.7.4, PyTorch 1.10.0, CUDA 10.2.
 
 ### Single-phase Inference
