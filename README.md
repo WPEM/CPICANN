@@ -10,7 +10,8 @@ This repo contains model and inference code for XRD phase identification by Deep
 |      | whole test dataset | randomly sampled<br>(with elemental info) | sampled by crystal system<br>(with elemental info) |
 |------|--------------------|-------------------------------------------|----------------------------------------------------|
 | DPID | 87.5%              | 99%                                       | 99%                                                |
-| JADE | 38.7%              | 65%                                       | 53%                                                |
+| JADE | 38.7%              | 65%                                       | 53%                                                |  
+
 *Note: Results of JADE were obtained by using a customed crystal structure database which only contains the structures in directory /strucs.*
 
 ### Experimental Single-phase Spectrum
@@ -29,7 +30,8 @@ This repo contains model and inference code for XRD phase identification by Deep
 | WO3     | P2_1/c      | Monoclinic     | T               | F               |
 | ZnS     | F-43m       | Cubic          | F               | F               |
 | Zr      | P6_3/mmc    | Hexagonal      | T               | T               |
-|         |             | **Accuracy**   | **7/13(53.8%)** | **9/13(69.2%)** |
+|         |             | **Accuracy**   | **7/13(53.8%)** | **9/13(69.2%)** |  
+
 *Note: T for true and F for false*   
 *Note: Results of JADE were obtained by using a customed crystal structure database which only contains the structures in directory /strucs.*
 
