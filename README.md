@@ -5,8 +5,11 @@
   <br>
 </h1>
 
+## Crystallographic Phase Identifier of Convolutional self-Attention Neural Network (CPICANN)
+)
+
 ## Introduction
-This repo contains model and inference code for XRD phase identification by Deep Convolutional Self-Attention Neural Network.
+This repo contains model and inference code for XRD phase identification by Deep Convolutional Self-Attention Neural Network. 
 
 ## Main Results
 
@@ -14,7 +17,7 @@ This repo contains model and inference code for XRD phase identification by Deep
 ### Synthetic Single-phase Spectrum
 |      | whole test dataset | randomly sampled<br>(with elemental info) | sampled by crystal system<br>(with elemental info) |
 |------|--------------------|-------------------------------------------|----------------------------------------------------|
-| DPID | 87.5%              | 99%                                       | 99%                                                |
+| CPICANN | 87.5%              | 99%                                       | 99%                                                |
 | JADE | 38.7%              | 65%                                       | 53%                                                |  
 
 *Note: Results of JADE were obtained by using a customed crystal structure database which only contains the structures in directory /strucs.*
