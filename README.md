@@ -6,7 +6,7 @@
 </h1>
 
 ## Crystallographic Phase Identifier of Convolutional self-Attention Neural Network (CPICANN)
-)
+
 
 ## Introduction
 This repo contains model and inference code for XRD phase identification by Deep Convolutional Self-Attention Neural Network. 
