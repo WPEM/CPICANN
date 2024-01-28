@@ -73,10 +73,6 @@ CPICANN.PhaseIdentifier(FilePath='./testdata',Task='single-phase',)
 ```
 
 ---
-![WechatIMG954](https://github.com/Bin-Cao/WPEM/assets/86995074/65b44e3f-257b-4ea7-8b54-174a1359449f)
-
-
----
 **About WPEM** :
 
 WPEM specializes in elucidating intricate crystal structures and untangling heavily overlapping Bragg peaks in mixed X-rays and polycrystalline powder diffraction. Our endeavors have yielded noteworthy research outcomes, including the precise detection of subtle structural differences, such as the α phase and α' phase of Ti-Ni alloy, the differentiation of amorphous and crystalline contributions in Polybutene, the investigation of complex solid solution structures, and the computation of scattering information within organized processes. We are eager to engage in extensive collaborations and offer support in X-ray diffraction pattern refinement. For inquiries or assistance, please don't hesitate to contact us at bcao686@connect.hkust-gz.edu.cn (Dr. CAO Bin).
