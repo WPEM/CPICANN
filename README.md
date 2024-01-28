@@ -1,4 +1,9 @@
-# DeepPhaseIDentification
+
+<h1 align="center">
+  <a href=""><img src="https://github.com/WPEM/CPICANN/assets/86995074/a40efe75-d5a9-4777-9d2a-cb4bed912d53" alt="CPICANN" width="250"></a>
+  <br>
+  <br>
+</h1>
 
 ## Introduction
 This repo contains model and inference code for XRD phase identification by Deep Convolutional Self-Attention Neural Network.
@@ -12,27 +17,6 @@ This repo contains model and inference code for XRD phase identification by Deep
 | DPID | 87.5%              | 99%                                       | 99%                                                |
 | JADE | 38.7%              | 65%                                       | 53%                                                |  
 
-*Note: Results of JADE were obtained by using a customed crystal structure database which only contains the structures in directory /strucs.*
-
-### Experimental Single-phase Spectrum
-| Formula | Space Group | Crystal System | JADE            | DPID            |
-|---------|-------------|----------------|-----------------|-----------------|
-| Al2O3   | R-3c        | Hexagonal      | F               | T               | 
-| CdS     | P6_3mc      | Hexagonal      | T               | T               |
-| Mn2O3   | I2_13       | Cubic          | F               | F               |
-| MnS     | Fm-3m       | Cubic          | T               | T               |
-| NiO2H2  | P-3m1       | Hexagonal      | T               | T               |
-| PbSO4   | Pnma        | Orthorhombic   | F               | T               |
-| PbSe    | Fm-3m       | Cubic          | T               | T               |
-| RuO2    | P4_2/mnm    | Tetragonal     | T               | T               |
-| Sn      | I4_1/amd    | Tetragonal     | F               | T               |
-| Ti(BCC) | Im-3m       | Cubic          | F               | F               |
-| WO3     | P2_1/c      | Monoclinic     | T               | F               |
-| ZnS     | F-43m       | Cubic          | F               | F               |
-| Zr      | P6_3/mmc    | Hexagonal      | T               | T               |
-|         |             | **Accuracy**   | **7/13(53.8%)** | **9/13(69.2%)** |  
-
-*Note: T for true and F for false*   
 *Note: Results of JADE were obtained by using a customed crystal structure database which only contains the structures in directory /strucs.*
 
 ### Synthetic Di-phase Spectrum
@@ -66,28 +50,32 @@ This repo contains model and inference code for XRD phase identification by Deep
 
 *Note: Results of Fe corrosion were obtained with random mixture of 20 selected Fe corrosion meterials, more details at [TBD]*
 
-## Usage
-### Preparation
-Install pytorch and pymatgen(for inference results visualization).  
-Download model parameter and CIF files at <a href='https://figshare.com/articles/dataset/models_and_strucs_zip/24943062'>figshare</a> and place *pretrained/* and *strucs/* under root directory.  
-The code has been tested on CentOS 7.4 with Python 3.7.4, PyTorch 1.10.0, CUDA 10.2.
 
-### Single-phase Inference
-To perform single-phase inference, place your data at ```/data/single-phase``` and run ```inference.py```.  
-You can specify data directory by changing the parameter ```data_path```.
-```angular2html
-python inference.py \
-    -inf_mode single-phase \
-    -data_path data/single-phase \ 
+## Installing / 安装
+    pip install WPEMPhase 
+    
+## Checking / 查看
+    pip show WPEMPhase 
+    
+## Updating / 更新
+    pip install --upgrade WPEMPhase
+
+
+
+
+## [Template](https://github.com/WPEM/CPICANN/tree/main/Template) 
+``` javascript
+from WPEMPhase import CPICANN
+CPICANN.PhaseIdentifier(FilePath='./testdata',Task='single-phase',)
 ```
 
-### Di-phase Inference
-To perform di-phase inference, place your data at ```/data/di-phase``` and run ```inference.py```.  
-You can specify data directory by changing the parameter ```data_path```.
-```angular2html
-python inference.py \
-    -inf_mode di-phase \
-    -data_path data/di-phase \ 
-    -include_elements_must Fe \
-    -include_elements_atLeastOne O_H_S
-```
+---
+![WechatIMG954](https://github.com/Bin-Cao/WPEM/assets/86995074/65b44e3f-257b-4ea7-8b54-174a1359449f)
+
+
+---
+About WPEM :
+
+WPEM specializes in elucidating intricate crystal structures and untangling heavily overlapping Bragg peaks in mixed X-rays and polycrystalline powder diffraction. Our endeavors have yielded noteworthy research outcomes, including the precise detection of subtle structural differences, such as the α phase and α' phase of Ti-Ni alloy, the differentiation of amorphous and crystalline contributions in Polybutene, the investigation of complex solid solution structures, and the computation of scattering information within organized processes. We are eager to engage in extensive collaborations and offer support in X-ray diffraction pattern refinement. For inquiries or assistance, please don't hesitate to contact us at bcao686@connect.hkust-gz.edu.cn (Dr. CAO Bin).
+
+Our development journey commenced in 2020, driven by a commitment to patience and perfection in our work. Upon the publication of our final paper, we plan to freely share all our code promptly.
