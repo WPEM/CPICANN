@@ -70,6 +70,63 @@ This repo contains model and inference code for XRD phase identification by Deep
 ``` javascript
 from WPEMPhase import CPICANN
 CPICANN.PhaseIdentifier(FilePath='./testdata',Task='single-phase',)
+
+
+Code introduction :
+
+
+Signature:
+CPICANN.PhaseIdentifier(
+    FilePath,
+    Task='single-phase',
+    ElementsSystem='',
+    ElementsContained='',
+    ElementsExclude='',
+    Device='cuda:0',
+    CIFfiles=None,
+    NNparam=None,
+)
+Docstring:
+CPICANN : Crystallographic Phase Identifier of Convolutional self-Attention Neural Network
+
+Contributions : Shouyang Zhang & Bin Cao
+================================================================
+    Please feel free to open issues in the Github :
+    https://github.com/WPEM/CPICANN
+    or 
+    contact Mr.Bin Cao (bcao686@connect.hkust-gz.edu.cn)
+    in case of any problems/comments/suggestions in using the code. 
+==================================================================
+
+:param FilePath 
+
+:param Task, type=str, default='single-phase'
+    if Task = 'single-phase', CPICANN executes a single phase identification task
+    if Task = 'di-phase', CPICANN executes a dual phase identification task
+
+:param ElementsSystem, type=str, default=''
+    Specifies the elements to be included at least in the prediction, example: 'Fe'.
+
+:param ElementsContained, type=str, default=''
+    Specifies the elements to be included, with at least one of them in the prediction, example: 'O_C_S'.
+
+:param ElementsExclude, type=str, default=''
+    Specifies the elements to be excluded in the prediction, example: 'Fe_O'
+
+:param Device, type=str, default='cuda:0',
+    Which device to run the CPICANN, example: 'cuda:0', 'cpu'.
+
+:param CIFfiles, type=str, default=None,
+    at the first time execution, user need to assign the location of cifs' database, viz. strucs.zip file we provided, 
+
+:param NNparam, type=str, default=None,
+    at the first time execution, user need to assign the location of pretrained NN parameters, viz. pretrained.zip file we provided, 
+
+examples:
+from WPEMPhase import CPICANN
+CPICANN.PhaseIdentifier(FilePath='./single-phase',Device='cpu')
+File:      ~/miniconda3/lib/python3.9/site-packages/WPEMPhase/CPICANN.py
+Type:      function
 ```
 
 ---
