@@ -89,7 +89,7 @@ CPICANN.PhaseIdentifier(
 Docstring:
 CPICANN : Crystallographic Phase Identifier of Convolutional self-Attention Neural Network
 
-Contributions : Shouyang Zhang & Bin Cao
+Contributors : Shouyang Zhang & Bin Cao
 ================================================================
     Please feel free to open issues in the Github :
     https://github.com/WPEM/CPICANN
