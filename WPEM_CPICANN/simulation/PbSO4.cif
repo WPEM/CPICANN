@@ -1,0 +1,94 @@
+#------------------------------------------------------------------------------
+#$Date: 2020-10-12 12:42:16 +0300 (Mon, 12 Oct 2020) $
+#$Revision: 258310 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/09/1010950.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1010950
+loop_
+_publ_author_name
+'James, R. W.'
+'Wood, W. A.'
+_publ_section_title
+;
+ The Crystal Structures of Barytes, Celestine and Anglesite
+;
+_journal_coden_ASTM              PRLAAZ
+_journal_name_full
+;
+Proceedings of the Royal Society of London, Series A: Mathematical and
+Physical Sciences (76,1906-)
+;
+_journal_page_first              598
+_journal_page_last               620
+_journal_paper_doi               10.1098/rspa.1925.0148
+_journal_volume                  109
+_journal_year                    1925
+_chemical_formula_structural     'Pb S O4'
+_chemical_formula_sum            'O4 Pb S'
+_chemical_name_mineral           Anglesite
+_chemical_name_systematic        'Lead sulfate'
+_space_group_IT_number           62
+_symmetry_cell_setting           orthorhombic
+_symmetry_Int_Tables_number      62
+_symmetry_space_group_name_Hall  '-P 2ac 2n'
+_symmetry_space_group_name_H-M   'P n m a'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   8.55
+_cell_length_b                   5.28
+_cell_length_c                   6.73
+_cell_volume                     315.0
+_cod_depositor_comments
+;
+ Copied several data items from duplicate entry 9014778 and updated
+ the bibliographic information.
+
+ Antanas Vaitkus,
+ 2020-10-12
+;
+_cod_database_code               1010950
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 1/2+x,1/2-y,1/2-z
+3 -x,1/2+y,-z
+4 1/2-x,-y,1/2+z
+5 -x,-y,-z
+6 1/2-x,1/2+y,1/2+z
+7 x,1/2-y,z
+8 1/2+x,y,1/2-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Pb1 Pb2+ 4 c 0.3153 0.25 0.3375 1. 0 d
+S1 S6+ 4 c 0.443 0.25 -0.1947 1. 0 d
+O1 O2- 4 c -1. -1. -1. 4. 0 dum
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Pb2+ 2.000
+S6+ 6.000
+O2- -2.000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0017670
