@@ -66,7 +66,7 @@ This repo contains model and inference code for XRD phase identification by Deep
 
 
 
-## Template[CODE](https://github.com/WPEM/CPICANN/blob/main/Template/CPICANNcode.ipynb) 
+## Template [CODE](https://github.com/WPEM/CPICANN/blob/main/Template/CPICANNcode.ipynb) 
 ``` javascript
 from WPEMPhase import CPICANN
 CPICANN.PhaseIdentifier(FilePath='./testdata',Task='single-phase',)
