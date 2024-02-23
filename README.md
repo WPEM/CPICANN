@@ -26,6 +26,8 @@ This repo contains model and inference code for XRD phase identification by Deep
 ### Synthetic Di-phase Spectrum
 <img width="373" alt="image" src="https://github.com/WPEM/CPICANN/assets/86995074/34b14780-0c1a-4169-8dd7-6b437f14df3f">
 
+### 100 experimental Spectrum
+<img width="425" alt="image" src="https://github.com/WPEM/CPICANN/assets/86995074/eba44550-a8ba-4340-ba06-daee7d394638">
 
 
 ## Installing / 安装
