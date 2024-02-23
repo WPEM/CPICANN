@@ -6,6 +6,7 @@
 </h1>
 
 ## Crystallographic Phase Identifier of Convolutional self-Attention Neural Network (CPICANN)
+<img width="510" alt="image" src="https://github.com/WPEM/CPICANN/assets/86995074/be945b5c-8ff0-4a22-b0b2-7fe3132b4b7d">
 
 
 ## Introduction
@@ -23,35 +24,8 @@ This repo contains model and inference code for XRD phase identification by Deep
 *Note: Results of JADE were obtained by using a customed crystal structure database which only contains the structures in directory /strucs.*
 
 ### Synthetic Di-phase Spectrum
-<table><tbody>
-    <th colspan="2" align="center">di-phase prediction results</th>
-    <th align="center">Random mixed spectra</th>
-    <th align="center">Fe corrosion</th>
-    <tr>
-        <td align="center">Contains at least<br>one phase</td>
-        <td align="center">Top2</td>
-        <td align="center">95.0%</td>
-        <td align="center">98.8%</td>
-    </tr>
-    <tr>
-        <td rowspan="3" align="center">Contains<br>both phase</td>
-        <td align="center">Top2</td>
-        <td align="center">42.8%</td>
-        <td align="center">77.8%</td>
-    </tr>
-    <tr>
-        <td align="center">Top3</td>
-        <td align="center">57.6%</td>
-        <td align="center">82.6%</td>
-    </tr>
-    <tr>
-        <td align="center">Top3</td>
-        <td align="center">70.6%</td>
-        <td align="center">96.4%</td>
-    </tr>
-</tbody></table>  
+<img width="373" alt="image" src="https://github.com/WPEM/CPICANN/assets/86995074/34b14780-0c1a-4169-8dd7-6b437f14df3f">
 
-*Note: Results of Fe corrosion were obtained with random mixture of 20 selected Fe corrosion meterials, more details at [TBD]*
 
 
 ## Installing / 安装
