@@ -15,7 +15,7 @@ This repo contains model and inference code for XRD phase identification by Deep
 ## Main Results
 
 
-### Synthetic Single-phase Spectrum
+### Synthetic Single-phase Spectra
 |      | whole test dataset | randomly sampled<br>(with elemental info) |
 |------|--------------------|-------------------------------------------|
 | CPICANN | 87.5%              | 99%                                       | 
@@ -23,10 +23,10 @@ This repo contains model and inference code for XRD phase identification by Deep
 
 *Note: Results of JADE were obtained by using a customed crystal structure database which only contains the structures in directory /strucs.*
 
-### Synthetic Di-phase Spectrum
+### Synthetic Di-phase Spectra
 <img width="373" alt="image" src="https://github.com/WPEM/CPICANN/assets/86995074/34b14780-0c1a-4169-8dd7-6b437f14df3f">
 
-### 100 experimental Spectrum
+### 100 experimental Spectra
 <img width="425" alt="image" src="https://github.com/WPEM/CPICANN/assets/86995074/eba44550-a8ba-4340-ba06-daee7d394638">
 
 
