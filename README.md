@@ -6,6 +6,7 @@
 </h1>
 
 ## Crystallographic Phase Identifier of Convolutional self-Attention Neural Network (CPICANN)
+<img width="510" alt="image" src="https://github.com/WPEM/CPICANN/assets/86995074/be945b5c-8ff0-4a22-b0b2-7fe3132b4b7d">
 
 
 ## Introduction
@@ -14,44 +15,19 @@ This repo contains model and inference code for XRD phase identification by Deep
 ## Main Results
 
 
-### Synthetic Single-phase Spectrum
-|      | whole test dataset | randomly sampled<br>(with elemental info) | sampled by crystal system<br>(with elemental info) |
-|------|--------------------|-------------------------------------------|----------------------------------------------------|
-| CPICANN | 87.5%              | 99%                                       | 99%                                                |
-| JADE | 38.7%              | 65%                                       | 53%                                                |  
+### Synthetic Single-phase Spectra
+|      | whole test dataset | randomly sampled<br>(with elemental info) |
+|------|--------------------|-------------------------------------------|
+| CPICANN | 87.5%              | 99%                                       | 
+| JADE | 38.7%              | 65%                                       | 
 
 *Note: Results of JADE were obtained by using a customed crystal structure database which only contains the structures in directory /strucs.*
 
-### Synthetic Di-phase Spectrum
-<table><tbody>
-    <th colspan="2" align="center">di-phase prediction results</th>
-    <th align="center">Random mixed spectra</th>
-    <th align="center">Fe corrosion</th>
-    <tr>
-        <td align="center">Contains at least<br>one phase</td>
-        <td align="center">Top2</td>
-        <td align="center">95.0%</td>
-        <td align="center">98.8%</td>
-    </tr>
-    <tr>
-        <td rowspan="3" align="center">Contains<br>both phase</td>
-        <td align="center">Top2</td>
-        <td align="center">42.8%</td>
-        <td align="center">77.8%</td>
-    </tr>
-    <tr>
-        <td align="center">Top3</td>
-        <td align="center">57.6%</td>
-        <td align="center">82.6%</td>
-    </tr>
-    <tr>
-        <td align="center">Top3</td>
-        <td align="center">70.6%</td>
-        <td align="center">96.4%</td>
-    </tr>
-</tbody></table>  
+### Synthetic Di-phase Spectra
+<img width="373" alt="image" src="https://github.com/WPEM/CPICANN/assets/86995074/34b14780-0c1a-4169-8dd7-6b437f14df3f">
 
-*Note: Results of Fe corrosion were obtained with random mixture of 20 selected Fe corrosion meterials, more details at [TBD]*
+### 100 experimental Spectra
+<img width="425" alt="image" src="https://github.com/WPEM/CPICANN/assets/86995074/eba44550-a8ba-4340-ba06-daee7d394638">
 
 
 ## Installing / 安装
@@ -66,7 +42,7 @@ This repo contains model and inference code for XRD phase identification by Deep
 
 
 
-## [Template](https://github.com/WPEM/CPICANN/tree/main/Template) 
+## Template [CODE](https://github.com/WPEM/CPICANN/blob/main/Template/CPICANNcode.ipynb) 
 ``` javascript
 from WPEMPhase import CPICANN
 CPICANN.PhaseIdentifier(FilePath='./testdata',Task='single-phase',)
