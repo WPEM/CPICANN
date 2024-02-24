@@ -6,8 +6,8 @@
 </h1>
 
 ## Crystallographic Phase Identifier of Convolutional self-Attention Neural Network (CPICANN)
-<img width="510" alt="image" src="https://github.com/WPEM/CPICANN/assets/86995074/be945b5c-8ff0-4a22-b0b2-7fe3132b4b7d">
 
+<img width="1289" alt="Screenshot 2024-02-24 at 08 42 24" src="https://github.com/WPEM/CPICANN/assets/86995074/eb3bf532-2281-49b7-b91e-bc7d53568c41">
 
 ## Introduction
 This repo contains model and inference code for XRD phase identification by Deep Convolutional Self-Attention Neural Network. 
