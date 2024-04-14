@@ -17,6 +17,8 @@ You can access all the training and testing data via the provided [**One drive l
 
 **Please email me your name, organization, and the purpose of your application in order to receive the password. Email name: Application for acquisition/CPICANN** 
 
+### Replication
+If you wish to reproduce this work, please refer to this [instruction](src/README.md).
 
 ### Main Results
 
