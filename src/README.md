@@ -12,6 +12,16 @@ File data.zip contains the data and the annotaion file. Place directory "train" 
 
 ### Model Trianing
 
-#### Single phase
+#### Single-phase
 
-run ```python train_single-phase.py``` to train the single-phase identification model from scratch. To train the model on your data, addtional parameters need to be set: ```python train_single-phase.py --data_dir_train=[your training data] --data_dir_val=[your validation data] --anno_train=[your anno file for training data] --anno_val=[your anno file for validation data] ```
+Run ```python train_single-phase.py``` to train the single-phase identification model from scratch. To train the model on your data, addtional parameters need to be set: ```python train_single-phase.py --data_dir_train=[your training data] --data_dir_val=[your validation data] --anno_train=[your anno file for training data] --anno_val=[your anno file for validation data]```.
+
+#### Bi-phase
+
+Run ```python train_bi-phase.py``` to train the bi-phase identification model. The bi-phase identification model is trained based on single-phase model, you can change the default setting by set the parameter ```load_path=[your pretrained single-phase model]```.
+
+### Model validation
+
+Run ```python train_single-phase.py``` and ```python val_bi-phase.py``` to run the validation code at default setting.
+
+If you wish to validate the model on your data, plase refer to [here](inference/README.md)
