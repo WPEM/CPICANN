@@ -92,11 +92,6 @@ Contributors : Shouyang Zhang & Bin Cao
 :param Device, type=str, default='cuda:0',
     Which device to run the CPICANN, example: 'cuda:0', 'cpu'.
 
-:param CIFfiles, type=str, default=None,
-    at the first time execution, user need to assign the location of cifs' database, viz. strucs.zip file we provided, 
-
-:param NNparam, type=str, default=None,
-    at the first time execution, user need to assign the location of pretrained NN parameters, viz. pretrained.zip file we provided, 
 
 examples:
 from WPEMPhase import CPICANN
