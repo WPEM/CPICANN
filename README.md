@@ -50,6 +50,5 @@ You can access all the training and testing data via the provided [**One drive l
 
 ### Template [CODE](https://github.com/WPEM/CPICANN/blob/main/Template/CPICANNcode.ipynb) 
 
----
-**About [WPEM](https://github.com/Bin-Cao/WPEM)** :
+
 
