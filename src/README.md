@@ -24,4 +24,4 @@ Run ```python train_bi-phase.py``` to train the bi-phase identification model. T
 
 Run ```python train_single-phase.py``` and ```python val_bi-phase.py``` to run the validation code at default setting.
 
-If you wish to validate the model on your data, plase refer to [here](inference/README.md)
+If you wish to validate the model on your data, plase format your data using data_format.py
