@@ -13,8 +13,6 @@
 This repo contains model and i
 nference code for XRD phase identification by Deep Convolutional Self-Attention Neural Network. 
 
-Sure, here are the polished versions:
-
 + **Logo:** CPICANN Logo
 + **Paper:** CPICANN Paper
 + **Pre_tep:** CPICANN Calling Code
