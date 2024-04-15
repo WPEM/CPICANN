@@ -14,7 +14,6 @@ This repo contains model and inference code for XRD phase identification by Deep
 
 + **Logo:** CPICANN Logo
 + **Paper:** CPICANN Paper
-+ **Pre_tep:** CPICANN Calling Code
 + **src:** CPICANN Source Code
 + **Opendata**: [Data Sharing](https://hkustgz-my.sharepoint.com/:f:/g/personal/bcao686_connect_hkust-gz_edu_cn/EhdJLtou8I1MoUJCu-KCoboBf1tXUD_ncZxcBNeCIKocqA?e=z0SaiZ)
 
