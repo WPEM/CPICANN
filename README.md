@@ -57,7 +57,7 @@ If you wish to reproduce this work, please refer to this [instruction](https://g
 
 
 
-### Template [CODE](https://github.com/WPEM/CPICANN/tree/main/pre_tep) 
+### Template [CODE](https://github.com/WPEM/CPICANN/blob/main/pre_tep/CPICANNcode.ipynb) 
 
 ### Contact Information:
 **Mr. Cao Bin**
