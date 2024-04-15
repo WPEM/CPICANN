@@ -55,7 +55,7 @@ If you wish to reproduce the results of our work or train the CPICANN model base
 
 
 
-### Template [CODE](https://github.com/WPEM/CPICANN/blob/main/pre_tep/CPICANNcode.ipynb) 
+### Template [CODE](https://github.com/WPEM/CPICANN/blob/main/src/inference%26case/CPICANNcode.ipynb) 
 
 ### Contact Information:
 **Mr. Cao Bin**
