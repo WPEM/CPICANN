@@ -10,7 +10,17 @@
 <img width="1289" alt="Screenshot 2024-02-24 at 08 42 24" src="https://github.com/WPEM/CPICANN/assets/86995074/eb3bf532-2281-49b7-b91e-bc7d53568c41">
 
 ### Introduction
-This repo contains model and inference code for XRD phase identification by Deep Convolutional Self-Attention Neural Network. 
+This repo contains model and i
+nference code for XRD phase identification by Deep Convolutional Self-Attention Neural Network. 
+
+Sure, here are the polished versions:
+
++ **Logo:** CPICANN Logo
++ **Paper:** CPICANN Paper
++ **Pre_tep:** CPICANN Calling Code
++ **Source_code:** CPICANN Source Code
++ **Train:** CPICANN Training Code
++ **Opendata**: [Data Sharing](https://hkustgz-my.sharepoint.com/:f:/g/personal/bcao686_connect_hkust-gz_edu_cn/EhdJLtou8I1MoUJCu-KCoboBf1tXUD_ncZxcBNeCIKocqA?e=z0SaiZ)
 
 ### Data Sharing:
 You can access all the training and testing data via the provided [**One drive link**](https://hkustgz-my.sharepoint.com/:f:/g/personal/bcao686_connect_hkust-gz_edu_cn/EhdJLtou8I1MoUJCu-KCoboBf1tXUD_ncZxcBNeCIKocqA?e=z0SaiZ).
