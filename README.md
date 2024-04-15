@@ -25,7 +25,7 @@ You can access all the training and testing data via the provided [**One drive l
 **Please email me your name, organization, and the purpose of your application in order to receive the password. Email name: Application for acquisition/CPICANN** 
 
 ### Replication
-If you wish to reproduce the results of our work or train the CPICANN model based on your own mission /data,  please refer to this [instruction](https://github.com/WPEM/CPICANN/tree/main/train).
+If you wish to reproduce the results of our work or train the CPICANN model based on your own mission /data,  please refer to [instruction](https://github.com/WPEM/CPICANN/tree/main/train).
 
 ### Main Results
 
