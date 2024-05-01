@@ -21,7 +21,7 @@ This repo contains model and inference code for XRD phase identification by Deep
 You can access all the training and testing data via the provided [**One drive link**](https://hkustgz-my.sharepoint.com/:f:/g/personal/bcao686_connect_hkust-gz_edu_cn/EhdJLtou8I1MoUJCu-KCoboBfi-wOp00WAlQCrONxjoYgg?e=rltgFE).
 
 ### Replication
-If you wish to reproduce the results of our work or train the CPICANN model based on your own mission /data,  please refer to [instruction](https://github.com/WPEM/CPICANN/tree/main/train).
+If you wish to reproduce the results of our work or train the CPICANN model based on your own mission /data,  please refer to [instruction](https://github.com/WPEM/CPICANN/tree/main/src).
 
 ### Main Results
 
