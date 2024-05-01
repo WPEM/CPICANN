@@ -4,9 +4,7 @@ This directory contains all the source code needed to reproduce this work.
 
 ### Data preparation
 
-To directly run the train and validation script in this directory, data preparation needs to be done. The [OneDrive link](https://hkustgz-my.sharepoint.com/:f:/g/personal/bcao686_connect_hkust-gz_edu_cn/EhdJLtou8I1MoUJCu-KCoboBf1tXUD_ncZxcBNeCIKocqA?e=z0SaiZ) contains all the training and synthetic testing data used in this work, stored in data.zip. This link also contains the pretrained model for single-phase and di-phase identification.
-
-(Please email me your name, organization, and the purpose of your application in order to receive the password. Email name: **Application for acquisition/CPICANN** Email: bcao686@connect.hkust-gz.edu.cn)
+To directly run the train and validation script in this directory, data preparation needs to be done. The [OneDrive link](https://hkustgz-my.sharepoint.com/:f:/g/personal/bcao686_connect_hkust-gz_edu_cn/EhdJLtou8I1MoUJCu-KCoboBfi-wOp00WAlQCrONxjoYgg?e=rltgFE) contains all the training and synthetic testing data used in this work, stored in data.zip. This link also contains the pretrained model for single-phase and di-phase identification.
 
 File single-phase_checkpoint_0200.pth and file bi-phase_checkpoint_2000.pth from the link above is the pretrained model, place them under directory "pretrained".
 
