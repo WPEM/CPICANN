@@ -18,7 +18,7 @@ This repo contains model and inference code for XRD phase identification by Deep
 + **Opendata**: [Data Sharing](https://huggingface.co/datasets/caobin/datasetCPICANN)
 
 ### Data Sharing:
-You can access all the training and testing data via [**datasetCPICANN**](https://huggingface.co/datasets/caobin/datasetCPICANN), the pretrained models via [pretrainCPICANN](https://huggingface.co/caobin/pretrainCPICANN)
+You can access all the training and testing data via [**datasetCPICANN**](https://huggingface.co/datasets/caobin/datasetCPICANN), the pretrained models via [**pretrainCPICANN**](https://huggingface.co/caobin/pretrainCPICANN)
 
 ### Replication
 If you wish to reproduce the results of our work or train the CPICANN model based on your own mission /data,  please refer to [instruction](https://github.com/WPEM/CPICANN/tree/main/src).
