@@ -4,9 +4,9 @@ This directory contains all the source code needed to reproduce this work.
 
 ### Data preparation
 
-To directly run the train and validation script in this directory, data preparation needs to be done. The [OneDrive link](https://hkustgz-my.sharepoint.com/:f:/g/personal/bcao686_connect_hkust-gz_edu_cn/EhdJLtou8I1MoUJCu-KCoboBfi-wOp00WAlQCrONxjoYgg?e=rltgFE) contains all the training and synthetic testing data used in this work, stored in data.zip. This link also contains the pretrained model for single-phase and di-phase identification.
+To directly run the train and validation script in this directory, data preparation needs to be done. You can access all the training and testing data via [**datasetCPICANN**](https://huggingface.co/datasets/caobin/datasetCPICANN), the pretrained models via [pretrainCPICANN](https://huggingface.co/caobin/pretrainCPICANN)
 
-File single-phase_checkpoint_0200.pth and file bi-phase_checkpoint_2000.pth from the link above is the pretrained model, place them under directory "pretrained".
+File **single_phase_checkpoint_0200.pth and file bi-phase_checkpoint_2000.pth from the link above is the pretrained model, place them under directory "pretrained".
 
 File data.zip contains the data and the annotaion file. Place directory "train" and "val" from data.zip under directory "data", place the annotation files anno_train.csv and anno_val.csv under directory "annotation".
 
