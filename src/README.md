@@ -6,9 +6,9 @@ This directory contains all the source code needed to reproduce this work.
 
 To directly run the train and validation script in this directory, data preparation needs to be done. You can access all the training and testing data via [**datasetCPICANN**](https://huggingface.co/datasets/caobin/datasetCPICANN), the pretrained models via [pretrainCPICANN](https://huggingface.co/caobin/pretrainCPICANN)
 
-File **single_phase_checkpoint_0200.pth and file bi-phase_checkpoint_2000.pth from the link above is the pretrained model, place them under directory "pretrained".
+File **.pth is the pretrained model, place them under directory "pretrained".
 
-File data.zip contains the data and the annotaion file. Place directory "train" and "val" from data.zip under directory "data", place the annotation files anno_train.csv and anno_val.csv under directory "annotation".
+Place directory "train" and "val" from dataset.zip under directory "data", place the annotation files anno_train.csv and anno_val.csv under directory "annotation".
 
 ### Model Trianing
 
