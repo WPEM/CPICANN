@@ -4,7 +4,7 @@ This directory contains all the source code needed to reproduce this work.
 
 ### Data preparation
 
-To directly run the train and validation script in this directory, data preparation needs to be done. You can access all the training and testing data via [**datasetCPICANN**](https://huggingface.co/datasets/caobin/datasetCPICANN), the pretrained models via [pretrainCPICANN](https://huggingface.co/caobin/pretrainCPICANN)
+To directly run the train and validation script in this directory, data preparation needs to be done. You can access all the training and testing data via [**datasetCPICANN**](https://huggingface.co/datasets/caobin/datasetCPICANN), the pretrained models via [**pretrainCPICANN**](https://huggingface.co/caobin/pretrainCPICANN)
 
 File **.pth is the pretrained model, place them under directory "pretrained".
 
