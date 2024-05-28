@@ -10,6 +10,8 @@ File **.pth is the pretrained model, place them under directory "pretrained".
 
 Place directory "train" and "val" from dataset.zip under directory "data", place the annotation files anno_train.csv and anno_val.csv under directory "annotation".
 
+If you wish to generate XRD pattern based on other CIF files, please refer to our online small-scale [**XRD simulation website](http://xrd.caobin.asia/).
+
 ### Model Trianing
 
 #### Single-phase
