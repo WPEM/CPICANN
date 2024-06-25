@@ -21,7 +21,7 @@ This repo contains model and inference code for XRD phase identification by Deep
 You can access all the training and testing data via [**datasetCPICANN**](https://huggingface.co/datasets/caobin/datasetCPICANN) and the pretrained models via [**pretrainCPICANN**](https://huggingface.co/caobin/pretrainCPICANN). For further collaboration, please feel free to contact our research team.
 
 ### SimXRD-4M
-SimXRD comprises 4,065,346 simulated powder X-ray diffraction patterns, representing 119,569 distinct crystal structures under 33 simulated conditions that mimic realworld variations. [arxiv](https://arxiv.org/pdf/2406.15469v1)
+**SimXRD** comprises 4,065,346 simulated powder X-ray diffraction patterns, representing 119,569 distinct crystal structures under 33 simulated conditions that mimic realworld variations. [**arxiv**](https://arxiv.org/pdf/2406.15469v1)
 ### Replication
 If you wish to reproduce the results of our work or train the CPICANN model based on your own mission /data,  please refer to [instruction](https://github.com/WPEM/CPICANN/tree/main/src).
 
