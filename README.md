@@ -63,7 +63,7 @@ If you wish to reproduce the results of our work or train the CPICANN model base
 **Mr. Cao Bin**
 Email: bcao686@connect.hkust-gz.edu.cn
 
-**WPEM [Applications]**(https://bin-cao.github.io/caobin/-wpem)
+**WPEM** [**Applications**](https://bin-cao.github.io/caobin/-wpem)
 
 ### Acknowledgement:
 If you utilize the data/code from this repo, please reference our paper.
