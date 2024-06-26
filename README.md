@@ -58,9 +58,12 @@ If you wish to reproduce the results of our work or train the CPICANN model base
 
 ### Template [CODE](https://github.com/WPEM/CPICANN/blob/main/src/inference%26case/CPICANNcode.ipynb) 
 
+
 ### Contact Information:
 **Mr. Cao Bin**
 Email: bcao686@connect.hkust-gz.edu.cn
+
+**WPEM [Applications]**(https://bin-cao.github.io/caobin/-wpem)
 
 ### Acknowledgement:
 If you utilize the data/code from this repo, please reference our paper.
