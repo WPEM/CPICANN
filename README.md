@@ -1,4 +1,6 @@
 
+## Welcome to [WPEM projection](https://bin-cao.github.io/caobin/-wpem) 
+
 <h1 align="center">
   <a href=""><img src="https://github.com/WPEM/CPICANN/assets/86995074/a40efe75-d5a9-4777-9d2a-cb4bed912d53" alt="CPICANN" width="250"></a>
   <br>
@@ -63,7 +65,6 @@ If you wish to reproduce the results of our work or train the CPICANN model base
 **Mr. Cao Bin**
 Email: bcao686@connect.hkust-gz.edu.cn
 
-**WPEM** [**Applications**](https://bin-cao.github.io/caobin/-wpem)
 
 ### Acknowledgement:
 If you utilize the data/code from this repo, please reference our paper.
