@@ -1,5 +1,5 @@
 
-## Welcome to [WPEM projection](https://bin-cao.github.io/caobin/-wpem) 
+## [WPEM Project](https://bin-cao.github.io/caobin/-wpem) 
 
 <h1 align="center">
   <a href=""><img src="https://github.com/WPEM/CPICANN/assets/86995074/a40efe75-d5a9-4777-9d2a-cb4bed912d53" alt="CPICANN" width="250"></a>
