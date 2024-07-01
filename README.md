@@ -69,4 +69,21 @@ Email: bcao686@connect.hkust-gz.edu.cn
 ### Acknowledgement:
 If you utilize the data/code from this repo, please reference our paper.
 
+### citation
 
+``` javascript
+@article{Zhang:fc5077,
+author = "Zhang, Shouyang and Cao, Bin and Su, Tianhao and Wu, Yue and Feng, Zhenjie and Xiong, Jie and Zhang, Tong-Yi",
+title = "{Crystallographic phase identifier of a convolutional self-attention neural network (CPICANN) on powder diffraction patterns}",
+journal = "IUCrJ",
+year = "2024",
+volume = "11",
+number = "4",
+pages = "634--642",
+month = "Jul",
+doi = {10.1107/S2052252524005323},
+url = {https://doi.org/10.1107/S2052252524005323},
+abstract = {Spectroscopic data, particularly diffraction data, are essential for materials characterization due to their comprehensive crystallographic information. The current crystallographic phase identification, however, is very time consuming. To address this challenge, we have developed a real-time crystallographic phase identifier based on a convolutional self-attention neural network (CPICANN). Trained on 692{\hskip0.16667em}190 simulated powder X-ray diffraction (XRD) patterns from 23{\hskip0.16667em}073 distinct inorganic crystallographic information files, CPICANN demonstrates superior phase-identification power. Single-phase identification on simulated XRD patterns yields 98.5 and 87.5% accuracies with and without elemental information, respectively, outperforming {\it JADE} software (68.2 and 38.7%, respectively). Bi-phase identification on simulated XRD patterns achieves 84.2 and 51.5% accuracies, respectively. In experimental settings, CPICANN achieves an 80% identification accuracy, surpassing {\it JADE} software (61%). Integration of CPICANN into XRD refinement software will significantly advance the cutting-edge technology in XRD materials characterization.},
+keywords = {computational modeling, structure prediction, X-ray diffraction, powder diffraction, phase identification, convolutional self-attention, autonomous characterization, neural networks, CPICANN},
+}
+``` 
