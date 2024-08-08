@@ -16,7 +16,7 @@ This repo contains model and inference code for XRD phase identification by Deep
 
 + **Logo:** CPICANN Logo
 + **Paper:** CPICANN Paper
-+ **src:** CPICANN Source Code
++ **src:** CPICANN [Source Code](https://huggingface.co/AI4Cryst/CPICANN)
 + **Opendata**: [Data Sharing](https://huggingface.co/datasets/caobin/datasetCPICANN)
 ___
 ### Data Sharing:
