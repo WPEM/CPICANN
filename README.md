@@ -1,6 +1,8 @@
 
+## [WPEM Project](https://bin-cao.github.io/caobin/-wpem) 
+
 <h1 align="center">
-  <a href=""><img src="https://github.com/WPEM/CPICANN/assets/86995074/a40efe75-d5a9-4777-9d2a-cb4bed912d53" alt="CPICANN" width="250"></a>
+  <a href="https://bin-cao.github.io/caobin/-wpem"><img src="https://github.com/Bin-Cao/WPEM/assets/86995074/3b05f104-364e-4cd2-9d21-f40b77e0ef10" alt="WPEM" width="250"></a>
   <br>
   <br>
 </h1>
@@ -15,11 +17,14 @@ This repo contains model and inference code for XRD phase identification by Deep
 + **Logo:** CPICANN Logo
 + **Paper:** CPICANN Paper
 + **src:** CPICANN Source Code
-+ **Opendata**: [Data Sharing](https://hkustgz-my.sharepoint.com/:f:/g/personal/bcao686_connect_hkust-gz_edu_cn/EhdJLtou8I1MoUJCu-KCoboBfi-wOp00WAlQCrONxjoYgg?e=rltgFE)
-
++ **Opendata**: [Data Sharing](https://huggingface.co/datasets/caobin/datasetCPICANN)
+___
 ### Data Sharing:
-You can access all the training and testing data via the provided [**One drive link**](https://hkustgz-my.sharepoint.com/:f:/g/personal/bcao686_connect_hkust-gz_edu_cn/EhdJLtou8I1MoUJCu-KCoboBfi-wOp00WAlQCrONxjoYgg?e=rltgFE).
+You can access all the training and testing data via [**datasetCPICANN**](https://huggingface.co/datasets/caobin/datasetCPICANN) and the pretrained models via [**pretrainCPICANN**](https://huggingface.co/caobin/pretrainCPICANN). For further collaboration, please feel free to contact our research team.
 
+### [SimXRD-4M](https://github.com/Bin-Cao/SimXRD)
+**SimXRD** comprises 4,065,346 simulated powder X-ray diffraction patterns, representing 119,569 distinct crystal structures under 33 simulated conditions that mimic realworld variations. [**arxiv**](https://arxiv.org/pdf/2406.15469v1)
+___
 ### Replication
 If you wish to reproduce the results of our work or train the CPICANN model based on your own mission /data,  please refer to [instruction](https://github.com/WPEM/CPICANN/tree/main/src).
 
@@ -55,11 +60,30 @@ If you wish to reproduce the results of our work or train the CPICANN model base
 
 ### Template [CODE](https://github.com/WPEM/CPICANN/blob/main/src/inference%26case/CPICANNcode.ipynb) 
 
+---
 ### Contact Information:
 **Mr. Cao Bin**
 Email: bcao686@connect.hkust-gz.edu.cn
 
+
 ### Acknowledgement:
 If you utilize the data/code from this repo, please reference our paper.
 
+### citation
 
+``` javascript
+@article{Zhang:fc5077,
+author = "Zhang, Shouyang and Cao, Bin and Su, Tianhao and Wu, Yue and Feng, Zhenjie and Xiong, Jie and Zhang, Tong-Yi",
+title = "{Crystallographic phase identifier of a convolutional self-attention neural network (CPICANN) on powder diffraction patterns}",
+journal = "IUCrJ",
+year = "2024",
+volume = "11",
+number = "4",
+pages = "634--642",
+month = "Jul",
+doi = {10.1107/S2052252524005323},
+url = {https://doi.org/10.1107/S2052252524005323},
+abstract = {Spectroscopic data, particularly diffraction data, are essential for materials characterization due to their comprehensive crystallographic information. The current crystallographic phase identification, however, is very time consuming. To address this challenge, we have developed a real-time crystallographic phase identifier based on a convolutional self-attention neural network (CPICANN). Trained on 692{\hskip0.16667em}190 simulated powder X-ray diffraction (XRD) patterns from 23{\hskip0.16667em}073 distinct inorganic crystallographic information files, CPICANN demonstrates superior phase-identification power. Single-phase identification on simulated XRD patterns yields 98.5 and 87.5% accuracies with and without elemental information, respectively, outperforming {\it JADE} software (68.2 and 38.7%, respectively). Bi-phase identification on simulated XRD patterns achieves 84.2 and 51.5% accuracies, respectively. In experimental settings, CPICANN achieves an 80% identification accuracy, surpassing {\it JADE} software (61%). Integration of CPICANN into XRD refinement software will significantly advance the cutting-edge technology in XRD materials characterization.},
+keywords = {computational modeling, structure prediction, X-ray diffraction, powder diffraction, phase identification, convolutional self-attention, autonomous characterization, neural networks, CPICANN},
+}
+``` 
