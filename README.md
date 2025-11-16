@@ -17,8 +17,9 @@
 
 ---
 
-## [WPEM Project](https://bin-cao.github.io/caobin/-wpem) 
+2024–2025, we achieved two key milestones in intelligent crystal phase identification. We open-sourced a high-fidelity PXRD simulation package, [**PySimXRD**](https://github.com/Bin-Cao/SimXRD), and released an intelligent identification platform, [**XQueryer**](https://github.com/Bin-Cao/XQueryer). Welcome to follow my latest work.
 
+--
 <h1 align="center">
   <a href="https://bin-cao.github.io/caobin/-wpem"><img src="https://github.com/Bin-Cao/WPEM/assets/86995074/3b05f104-364e-4cd2-9d21-f40b77e0ef10" alt="WPEM" width="250"></a>
   <br>
